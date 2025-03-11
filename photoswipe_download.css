@@ -1,0 +1,14 @@
+.my-download-button.pswp__button {
+  background: none !important;
+  border: none;
+  cursor: pointer;
+}
+
+.my-download-button.pswp__button:hover {
+  opacity: 1;
+}
+
+.my-download-button.pswp__button i {
+  color: white;
+  font-size: 16px;
+}

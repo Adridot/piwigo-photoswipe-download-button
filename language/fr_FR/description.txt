@@ -1,0 +1,1 @@
+Ce plugin ajoute un bouton de téléchargement dans l'interface PhotoSwipe, permettant aux utilisateurs de télécharger le fichier original sans accéder à l'aperçu.
