@@ -3,7 +3,7 @@
 Plugin Name: PhotoSwipe Download Button
 Version: 1.0
 Description: Adds a download button to the PhotoSwipe interface for Piwigo. Users can download the original file without opening the preview (a hack until PhotoSwipe provides an official solution).
-Plugin URI: https://github.com/adridot
+Plugin URI: https://github.com/Adridot/piwigo-photoswipe-download-button
 Author: Adridot
 Author URI: https://github.com/adridot
 */
