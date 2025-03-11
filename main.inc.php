@@ -17,3 +17,5 @@ define('PHOTOSWIPE_DOWNLOAD_ID', basename(dirname(__FILE__)));
 include_once(PHPWG_ROOT_PATH.'plugins/'.PHOTOSWIPE_DOWNLOAD_ID.'/plugin.inc.php');
 
 add_event_handler('loc_end_page_header', 'psdownload_add_assets');
+
+load_language('plugin.lang', PHPWG_ROOT_PATH);
