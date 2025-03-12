@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
       e.preventDefault();
       var url = downloadBtn.getAttribute('data-download-url');
       if (url) {
-        window.open(url);
+        download(url)
       } else {
         alert(psdownloadLang.downloadAlert);
       }
@@ -27,6 +27,15 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
       topBar.appendChild(downloadBtn);
     }
+  }
+
+  function download(url) {
+    const a = document.createElement('a')
+    a.href = url
+    a.download = url.split('/').pop()
+    document.body.appendChild(a)
+    a.click()
+    document.body.removeChild(a)
   }
 
   function updateDownloadUrl() {
